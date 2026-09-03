@@ -1,0 +1,1 @@
+<?php require 'db.php'; $conn = get_db(); $conn->exec('ALTER TABLE agency_purchases ADD COLUMN account_id INTEGER DEFAULT NULL'); $conn->exec('ALTER TABLE supplier_payments ADD COLUMN account_id INTEGER DEFAULT NULL'); echo 'Added to agency_purchases and supplier_payments\n'; ?>

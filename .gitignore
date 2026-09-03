@@ -1,0 +1,15 @@
+.env
+
+# Runtime-generated data
+storage/logs/*
+storage/temp/*
+storage/output/*
+storage/reports/*
+app/storage/logs/*
+uploads/*
+
+# Local editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

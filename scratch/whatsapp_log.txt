@@ -1,0 +1,2 @@
+[2026-06-22 20:24:16] Status: FAILED | Phone: 9876543210 | Msg: Test WhatsApp Log Verification | Result: {"success":false,"error":"Ultramsg credentials not configured in api.php"}
+[2026-06-22 21:12:56] Status: SUCCESS | Phone: 9876543210 | Msg: Here is your direct sale bill from Crescent Clinic | Result: {"success":true,"sent":"true","mocked":true,"warning":"Ultramsg credentials not configured in api.php, using mock response"}

@@ -1,0 +1,1 @@
+<?php require 'db.php'; \['action'] = 'get_print_report'; \['period'] = 'custom'; \['start'] = '2000-01-01'; \['end'] = '2026-06-24'; session_start(); \['user_id'] = 1; \['role'] = 'management'; require 'reports_api.php';

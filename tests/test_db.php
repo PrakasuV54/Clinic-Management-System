@@ -1,0 +1,10 @@
+<?php
+require 'db.php';
+$_GET['action'] = 'get_print_report';
+$_GET['period'] = 'custom';
+$_GET['start'] = '2000-01-01';
+$_GET['end'] = '2026-06-24';
+session_start();
+$_SESSION['user_id'] = 1;
+$_SESSION['role'] = 'management';
+require 'reports_api.php';
